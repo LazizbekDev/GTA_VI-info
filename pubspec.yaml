@@ -17,3 +17,15 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: neue
+      fonts:
+        - asset: assets/thin.otf
+          weight: 300
+        - asset: assets/bold.otf
+          weight: 700
+        - asset: assets/medium.otf
+          weight: 500
+          style: italic
