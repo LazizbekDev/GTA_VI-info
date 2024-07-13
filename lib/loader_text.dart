@@ -6,7 +6,7 @@ class Loader extends StatelessWidget {
 
   @override
   Widget build(context) {
-    return SelectableText(
+    return Text(
       text,
       style: const TextStyle(
         fontSize: 28,
